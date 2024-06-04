@@ -3,6 +3,8 @@ import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { getExplorerLink } from './gateway'
 
 export enum FEATURES {
+  EIP1108 = 'EIP1108',
+  EIP155 = 'EIP155',
   ERC721 = 'ERC721',
   SAFE_APPS = 'SAFE_APPS',
   CONTRACT_INTERACTION = 'CONTRACT_INTERACTION',
